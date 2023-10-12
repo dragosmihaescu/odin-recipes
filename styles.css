@@ -1,0 +1,13 @@
+body {
+    max-width:1100px;
+    background-color: lightblue;
+}
+
+.recipe-title {
+    font-size:24px;
+    font-weight: 700;
+    text-align: center;
+}
+a {
+    padding-right: 5px;
+}
