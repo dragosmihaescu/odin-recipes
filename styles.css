@@ -7,7 +7,27 @@ body {
     font-size:24px;
     font-weight: 700;
     text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 500px;
 }
-a {
-    padding-right: 5px;
+
+.container {
+    max-width: 1190px;
+}
+
+.hero {
+    display: block;
+    margin: 0 auto;
+}
+.links {
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+
+.links a {
+    padding: 5px;
+    margin-top: 20px;
 }
