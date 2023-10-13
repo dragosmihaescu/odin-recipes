@@ -11,6 +11,7 @@ body {
     border: 1px solid black;
     margin: 0 auto;
     width: 500px;
+    color:beige;
 }
 
 .container {
@@ -21,13 +22,26 @@ body {
     display: block;
     margin: 0 auto;
 }
+
 .links {
-    align-items: center;
-    justify-content: center;
     display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border: 1px solid blanchedalmond;
+    gap: 20px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top:20px;
 }
 
 .links a {
-    padding: 5px;
-    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
 }
